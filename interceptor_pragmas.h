@@ -1,0 +1,6 @@
+#ifndef INTERCEPTOR_PRAGMAS_H_INCL
+#define INTERCEPTOR_PRAGMAS_H_INCL
+
+// #define _GNU_SOURCE
+
+#endif
