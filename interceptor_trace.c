@@ -285,7 +285,7 @@ static void handle_syscall(rax_t rax, pid_t pid, StringReplacer_t replacer) {
 
 		if (_errno != 0) {
 			LOG_PRINT(
-				"ERROR: PTRACE_PEEKTEXT ERROR! (PID %i %s REG %i):\n\t%s\n\tEnable _PATH_INTERCEPTER_DEBUG=1 for more information.\n\tPlease consider reporting this if it looks like a bug.\n\tMax read out (only accurate if _PATH_INTERCEPTER_DEBUG=1): %s\n",
+				"ERROR: PTRACE_PEEKTEXT ERROR! (PID %i %s REG %i):\n\t%s\n\tEnable _PATH_INTERCEPTOR_DEBUG=1 for more information.\n\tPlease consider reporting this if it looks like a bug.\n\tMax read out (only accurate if _PATH_INTERCEPTOR_DEBUG=1): %s\n",
 				pid,
 				interceptible_call.name,
 				filearg_reg,
